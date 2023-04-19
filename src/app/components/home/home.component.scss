@@ -1,0 +1,118 @@
+.bg-custom {
+  background-color: transparent;
+  color: black;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: var(--bs-navbar-nav-link-padding-x);
+  padding-left: var(--bs-navbar-nav-link-padding-x);
+  color: white;
+  padding: 1rem;
+}
+.navbar-collapse .navbar-nav .navbar-expand-lg .nav-link{
+  flex-basis: 100%;
+  flex-grow: 1;
+  background-color: black;
+}
+.linea-horizontal {
+  border-bottom: 1px solid white; /* establece el ancho y estilo de borde de la línea */
+  width: 100%; /* establece el ancho de la línea al 100% del contenedor */
+}
+
+.container-fluid {
+  color:black;
+
+}
+li{
+  list-style: none;
+
+}
+
+.logo {
+  width: 4rem;
+}
+
+.background {
+  width: 100%;
+}
+
+.information {
+  padding: 3rem;
+}
+
+.form {
+  background-color: black;
+  padding: 100px;
+  text-align: justify;
+}
+
+
+
+#background-image {
+  background-image: url('../../../assets/Background.jpeg');
+  background-size: 100%;
+}
+
+.intro {
+  color: white;
+  height: 200% !important;
+}
+
+.text {
+  margin-top: 15rem;
+  font-size: 3rem;
+  padding: 2rem;
+  opacity: 1.0;
+  text-align: end;
+  color: white;
+  font-weight: 500;
+}
+
+.footer {
+  background-color: #151515;
+  padding: 2rem;
+  color: white;
+}
+
+
+.form-group {
+  width: 18rem;
+  background-color: transparent;
+  color: white;
+  padding: 0.3rem;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+}
+
+.form-grouptxt {
+  width: 18rem;
+  background-color: transparent;
+  color: #6a6a6a;
+  padding: 0.3rem;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  font-weight: lighter;
+
+  textarea{
+    height: 6rem;
+  }
+
+}
+
+
+.btn{
+  border: solid 1px #6a6a6a;
+  display: block;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+
+.second-footer{
+  padding: 3rem;
+  color: white;
+  background: #151515;
+}
